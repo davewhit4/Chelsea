@@ -1,0 +1,59 @@
+
+body {
+  margin: 0;
+}
+
+#top_pic {
+
+  height: 800px;
+  background-image: url("./HarrisOsgood.jpg");
+  background-position: center, center;
+  background-size: cover;
+}
+
+#bottom_pic {
+  display: flex;
+  justify-content: flex-end;
+  height: 800px;
+  background-image: url("./StamfordBridge.jpg");
+  background-position: center, center;
+  background-size: cover;
+}
+
+#jose {
+  margin: 10px;
+  height: 100px;
+}
+
+#team_pic {
+  height: 150px;
+  background-image: url("./TeamPic.jpg");
+  background-repeat: repeat;
+  background-size:contain;
+  justify-content: center;
+}
+
+
+@media only screen and (max-width: 484px) {
+#bottom_pic {  
+height: 400px;
+}}
+
+@media only screen and (max-width: 484px) {
+#top_pic {  
+height: 400px;
+}}
+
+@media only screen and (max-width: 484px) {
+#team_pic {  
+height: 150px;
+}}
+
+
+#CupWinners {
+z-index: 10;
+  width: 100%;
+  position: fixed;
+text-align: center;
+  color: white;
+}
